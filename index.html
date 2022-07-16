@@ -10,9 +10,9 @@
 	</head>
 	<body>
 		<div class="page-wrap">
-			<header class="header container">
-				<div class="header-head">
-					<ul class="link-list">
+			<header class="header-container flex column">
+				<div class="header-head flex">
+					<ul class="link-list flex">
 						<a href="#" class="header-link">Доставка</a>
 						<a href="#" class="header-link">Оплата</a>
 						<a href="#" class="header-link">Отзывы</a>
@@ -21,15 +21,15 @@
 					</ul>
 				</div>
 
-				<div class="header-main">
-					<div class="header-main-center">
+				<div class="header-main flex">
+					<div class="header-main-center flex input-width-main">
 						<div class="header-logo">
 							<a href="#" class="logo-link">
 								<img class="logo-img" src="./img/logo.svg" alt="logo">
 							</a>
 							<p class="beauty-txt">BEAUTY</p>
 						</div>
-						<div class="button-call-container">
+						<div class="button-call-container flex">
 							<a href="#" class="phone-link">8 (044) 123-45-67</a>
 							<button class="button-call" type="submit">Обратный звонок</button>
 						</div>
@@ -39,8 +39,8 @@
 				<div class="line"></div>
 
 				<div class="header-foot">
-					<div class="header-topic">
-						<ul class="link-list">
+					<div class="header-topic flex">
+						<ul class="link-list flex">
 							<a href="#" class="header-link topic-head">Парикмахерская</a>
 							<a href="#" class="header-link topic-head">Барбершоп</a>
 							<a href="#" class="header-link topic-head">Маникюр</a>
@@ -64,10 +64,10 @@
 			</div>
 
 			<div class="container-main">
-				<div class="container-cards-title">
+				<div class="container-cards-title input-width-main">
 					<div class="title-cards">Специальные предложения</div>
 					<div class="cards-container">
-						<ul class="cards-list">
+						<ul class="cards-list flex">
 							<li class="card">
 								<img class="card-img" src="./img/chair-img.png" alt="chair">
 								<p class="text">Парикмахерское кресло «Норм» гидравлическое</p>
@@ -96,8 +96,8 @@
 					</div>
 				</div>
 
-				<div class="container-pink-blocks">
-					<div class="pink-block">
+				<div class="container-pink-blocks flex input-width-main">
+					<div class="pink-block flex">
 						<div class="pink-block-txt-wrap">
 							<p class="pink-block-title">Получайте бонусы и подарки</p>
 							<p class="pink-block-text">Каждый месяц разыгрываем <br>
@@ -108,7 +108,7 @@
 							<img src="./img/convert-full.svg" alt="convert">
 						</div>
 					</div>
-					<div class="pink-block">
+					<div class="pink-block flex">
 						<div class="pink-block-txt-wrap">
 							<p class="pink-block-title">Заходите к нам</p>
 							<p class="pink-block-text sec">Более 300 магазинов <br>
@@ -121,20 +121,20 @@
 					</div>
 				</div>
 
-				<div class="container-impuls">
-					<ul class="impuls-item">
+				<div class="container-impuls input-width-main">
+					<ul class="impuls-item flex">
 						<li class="impuls"><img src="./img/impuls.png" alt="impuls" class="impuls-img"></li>
 						<li class="impuls"><img src="./img/impuls.png" alt="impuls" class="impuls-img"></li>
 						<li class="impuls"><img src="./img/impuls.png" alt="impuls" class="impuls-img"></li>
 						<li class="impuls"><img src="./img/impuls.png" alt="impuls" class="impuls-img"></li>
 					</ul>
-					<ul class="impuls-item">
+					<ul class="impuls-item flex">
 						<li class="impuls"><img src="./img/impuls.png" alt="impuls" class="impuls-img"></li>
 						<li class="impuls"><img src="./img/impuls.png" alt="impuls" class="impuls-img"></li>
 						<li class="impuls"><img src="./img/impuls.png" alt="impuls" class="impuls-img"></li>
 						<li class="impuls"><img src="./img/impuls.png" alt="impuls" class="impuls-img"></li>
 					</ul>
-					<ul class="impuls-item">
+					<ul class="impuls-item flex">
 						<li class="impuls"><img src="./img/impuls.png" alt="impuls" class="impuls-img"></li>
 						<li class="impuls"><img src="./img/impuls.png" alt="impuls" class="impuls-img"></li>
 						<li class="impuls"><img src="./img/impuls.png" alt="impuls" class="impuls-img"></li>
@@ -142,10 +142,10 @@
 					</ul>
 				</div>
 
-				<div class="container-cards-title">
+				<div class="container-cards-title top-padding">
 					<div class="title-cards">Вы недавно смотрели</div>
 					<div class="cards-container">
-						<ul class="cards-list">
+						<ul class="cards-list flex">
 							<li class="card">
 								<img class="card-img" src="./img/chair-img.png" alt="chair">
 								<p class="text">Парикмахерское кресло «Норм» гидравлическое</p>
@@ -175,144 +175,146 @@
 				</div>
 			</div>
 
-			<footer class="footer-container-wrap">
-				<div class="footer-container-menu-box">
-					<div class="footer-menu-container">
-						<div class="footer-menu-col">
-							<div class="menu-title-box">
-								<p class="menu-title">Популярные
-									категории</p>
+			<footer class="footer">
+				<div class="footer-container-wrap">
+					<div class="footer-container-menu-box">
+						<div class="footer-menu-container flex input-width-main">
+							<div class="footer-menu-col">
+								<div class="menu-title-box">
+									<p class="menu-title">Популярные
+										категории</p>
+								</div>
+								<div class="menu-topics-box">
+									<ul class="topic-list">
+										<li class="text-menu">
+											<p class="topic">Насадки</p>
+										</li>
+										<li class="text-menu">
+											<p class="topic">Инструменты</p>
+										</li>
+										<li class="text-menu">
+											<p class="topic">Гель-лаки</p>
+										</li>
+										<li class="text-menu">
+											<p class="topic">Дизайн</p>
+										</li>
+										<li class="text-menu">
+											<p class="topic">Наращивание</p>
+										</li>
+										<li class="text-menu">
+											<p class="topic">Оборудование</p>
+										</li>
+									</ul>
+								</div>
 							</div>
-							<div class="menu-topics-box">
-								<ul class="topic-list">
-									<li class="text-menu">
-										<p class="topic">Насадки</p>
-									</li>
-									<li class="text-menu">
-										<p class="topic">Инструменты</p>
-									</li>
-									<li class="text-menu">
-										<p class="topic">Гель-лаки</p>
-									</li>
-									<li class="text-menu">
-										<p class="topic">Дизайн</p>
-									</li>
-									<li class="text-menu">
-										<p class="topic">Наращивание</p>
-									</li>
-									<li class="text-menu">
-										<p class="topic">Оборудование</p>
-									</li>
-								</ul>
+
+							<div class="footer-menu-col">
+								<div class="menu-title-box">
+									<p class="menu-title">Популярные
+										категории</p>
+								</div>
+								<div class="menu-topics-box">
+									<ul class="topic-list">
+										<li class="text-menu">
+											<p class="topic">Насадки</p>
+										</li>
+										<li class="text-menu">
+											<p class="topic">Инструменты</p>
+										</li>
+										<li class="text-menu">
+											<p class="topic">Гель-лаки</p>
+										</li>
+										<li class="text-menu">
+											<p class="topic">Дизайн</p>
+										</li>
+										<li class="text-menu">
+											<p class="topic">Наращивание</p>
+										</li>
+										<li class="text-menu">
+											<p class="topic">Оборудование</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="footer-menu-col">
+								<div class="menu-title-box">
+									<p class="menu-title">Популярные
+										категории</p>
+								</div>
+								<div class="menu-topics-box">
+									<ul class="topic-list">
+										<li class="text-menu">
+											<p class="topic">Насадки</p>
+										</li>
+										<li class="text-menu">
+											<p class="topic">Инструменты</p>
+										</li>
+										<li class="text-menu">
+											<p class="topic">Гель-лаки</p>
+										</li>
+										<li class="text-menu">
+											<p class="topic">Дизайн</p>
+										</li>
+										<li class="text-menu">
+											<p class="topic">Наращивание</p>
+										</li>
+										<li class="text-menu">
+											<p class="topic">Оборудование</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="footer-menu-col">
+								<div class="menu-title-box">
+									<p class="menu-title">Популярные
+										категории</p>
+								</div>
+								<div class="menu-topics-box">
+									<ul class="topic-list">
+										<li class="text-menu">
+											<p class="topic">Насадки</p>
+										</li>
+										<li class="text-menu">
+											<p class="topic">Инструменты</p>
+										</li>
+										<li class="text-menu">
+											<p class="topic">Гель-лаки</p>
+										</li>
+										<li class="text-menu">
+											<p class="topic">Дизайн</p>
+										</li>
+										<li class="text-menu">
+											<p class="topic">Наращивание</p>
+										</li>
+										<li class="text-menu">
+											<p class="topic">Оборудование</p>
+										</li>
+									</ul>
+								</div>
 							</div>
 						</div>
+					</div>
 
-						<div class="footer-menu-col">
-							<div class="menu-title-box">
-								<p class="menu-title">Популярные
-									категории</p>
-							</div>
-							<div class="menu-topics-box">
-								<ul class="topic-list">
-									<li class="text-menu">
-										<p class="topic">Насадки</p>
-									</li>
-									<li class="text-menu">
-										<p class="topic">Инструменты</p>
-									</li>
-									<li class="text-menu">
-										<p class="topic">Гель-лаки</p>
-									</li>
-									<li class="text-menu">
-										<p class="topic">Дизайн</p>
-									</li>
-									<li class="text-menu">
-										<p class="topic">Наращивание</p>
-									</li>
-									<li class="text-menu">
-										<p class="topic">Оборудование</p>
-									</li>
-								</ul>
-							</div>
+					<div class="line"></div>
+
+					<div class="footer-container-middle flex input-width-main">
+						<div class="footer-container-icons">
+							<img class="icon" src="./img/youtube.svg" alt="youtube">
+							<img class="icon radius" src="./img/facebook-logo.svg" alt="facebook">
+							<img class="icon radius" src="./img/instagram.svg" alt="instagram">
 						</div>
 
-						<div class="footer-menu-col">
-							<div class="menu-title-box">
-								<p class="menu-title">Популярные
-									категории</p>
-							</div>
-							<div class="menu-topics-box">
-								<ul class="topic-list">
-									<li class="text-menu">
-										<p class="topic">Насадки</p>
-									</li>
-									<li class="text-menu">
-										<p class="topic">Инструменты</p>
-									</li>
-									<li class="text-menu">
-										<p class="topic">Гель-лаки</p>
-									</li>
-									<li class="text-menu">
-										<p class="topic">Дизайн</p>
-									</li>
-									<li class="text-menu">
-										<p class="topic">Наращивание</p>
-									</li>
-									<li class="text-menu">
-										<p class="topic">Оборудование</p>
-									</li>
-								</ul>
-							</div>
-						</div>
-
-						<div class="footer-menu-col">
-							<div class="menu-title-box">
-								<p class="menu-title">Популярные
-									категории</p>
-							</div>
-							<div class="menu-topics-box">
-								<ul class="topic-list">
-									<li class="text-menu">
-										<p class="topic">Насадки</p>
-									</li>
-									<li class="text-menu">
-										<p class="topic">Инструменты</p>
-									</li>
-									<li class="text-menu">
-										<p class="topic">Гель-лаки</p>
-									</li>
-									<li class="text-menu">
-										<p class="topic">Дизайн</p>
-									</li>
-									<li class="text-menu">
-										<p class="topic">Наращивание</p>
-									</li>
-									<li class="text-menu">
-										<p class="topic">Оборудование</p>
-									</li>
-								</ul>
-							</div>
+						<div class="button-call-container flex">
+							<a href="#" class="phone-link">8 (044) 123-45-67</a>
+							<button class="button-call" type="submit">Обратный звонок</button>
 						</div>
 					</div>
 				</div>
 
-				<div class="line"></div>
-
-				<div class="footer-container-middle">
-					<div class="footer-container-icons">
-						<img class="icon" src="./img/youtube.svg" alt="youtube">
-						<img class="icon radius" src="./img/facebook-logo.svg" alt="facebook">
-						<img class="icon radius" src="./img/instagram.svg" alt="instagram">
-					</div>
-
-					<div class="button-call-container foot-btn">
-						<a href="#" class="phone-link">8 (044) 123-45-67</a>
-						<button class="button-call" type="submit">Обратный звонок</button>
-					</div>
-				</div>
-
-				<div class="footer-foot-wrap">
-					<div class="footer-foot">
+				<div class="footer-foot-wrap flex">
+					<div class="footer-foot flex input-width-main">
 						<div class="copy-container">
 							<p class="copy-txt start">
 								Лучший магазин (с) 2019 Все права защищены. Интернет-магазин оборудования для салонов

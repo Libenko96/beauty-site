@@ -56,18 +56,20 @@
 
 .header-main {
     justify-content: center;
-    padding: 20px 0;
+    padding: 20px 20px;
     background-color: var(--main_white_color);
     width: var(--max_width_percent_main);
 }
 
+.header-main-center {
+    gap: 20px;
+    justify-content: space-between;
+}
+
 .header-logo {
-    width: 50%;
     display: flex;
-    justify-content: left;
     align-items: center;
     gap: 20px;
-    padding: 0 20px;
 }
 
 .phone-link {
@@ -77,8 +79,6 @@
 
 .button-call-container {
     gap: 20px;
-    width: 50%;
-    justify-content: right;
     align-items: center;
 }
 
@@ -355,7 +355,7 @@
 }
 
 .impuls-link:hover {
-    transform: scale(1.1);
+    transform: scale(1.02);
     background-color: var(--main_white_color);
     border: black 1px solid;
 }

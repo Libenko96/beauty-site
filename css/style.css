@@ -425,14 +425,15 @@
 }
 
 .footer-foot-wrap {
-    justify-content: space-around;
+    justify-content: center;
     width: var(--max_width_percent_main);
-    padding: 25px 0;
+    padding: 25px 20px;
     background-color: var(--main_grey_color);
 }
 
 .footer-foot {
     justify-content: space-between;
+    gap: 8px;
 }
 
 .copy-txt {
